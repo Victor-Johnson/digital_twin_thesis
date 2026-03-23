@@ -1,0 +1,24 @@
+name: Docker CI
+
+on: [push, pull_request]
+
+jobs:
+  test-ros2:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build ROS2 image
+        run: docker build -t thesis/ros2 -f docker/ros2/Dockerfile .
+
+      - name: Install container-structure-test
+        run: |
+          curl -LO https://storage.googleapis.com/container-structure-test/latest/container-structure-test-linux-amd64
+          chmod +x container-structure-test-linux-amd64
+          sudo mv container-structure-test-linux-amd64 /usr/local/bin/container-structure-test
+
+      - name: Test ROS2 image
+        run: |
+          container-structure-test test \
+            --image thesis/ros2 \
+            --config docker/ros2/tests/ros2_test.yaml

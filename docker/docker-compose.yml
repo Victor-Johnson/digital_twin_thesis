@@ -1,0 +1,34 @@
+# This docker compose references all the docker file in the directory to run
+
+services:
+  ros2:
+    build:
+      context: ..
+      dockerfile: docker/ros2/Dockerfile
+    network_mode: host
+    environment:
+      - DISPLAY=${DISPLAY}
+      - ROS_DOMAIN_ID=0
+    volumes:
+      - ..:/ros2_ws
+      - /tmp/.X11-unix:/tmp/.X11-unix
+
+  ml_training:
+    build:
+      context: ..
+      dockerfile: docker/ml/Dockerfile
+    volumes:
+      - ../ml:/workspace/ml
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: [gpu]
+
+  jetson:
+    build:
+      context: ..
+      dockerfile: docker/jetson/Dockerfile
+    platform: linux/arm64
+    volumes:
+      - ../ml:/workspace/ml

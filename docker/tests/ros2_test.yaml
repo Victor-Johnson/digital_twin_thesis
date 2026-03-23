@@ -1,0 +1,27 @@
+schemaVersion: 2.0.0
+
+commandTests:
+  - name: "ROS2 Humble is installed"
+    command: "bash"
+    args: ["-c", "source /opt/ros/humble/setup.bash && ros2 --version"]
+    expectedOutput: ["ros2"]
+
+  - name: "is colcon avaliable"
+    command: "which"
+    args: ["colcon"]
+    expectedOutput: ["/usr/bin/colcon"]
+
+  - name: "Python 3.10"
+    command: "python3"
+    args: ["--version"]
+    expectedOutput: ["Python 3.10"]
+
+fileExistenceTests:
+  - name: "ROS2 setup.bash exists"
+    path: "/opt/ros/humble/setup.bash"
+    shouldExist: true
+
+metadataTest:
+  envVars:
+    - key: "ROS_DISTRO"
+      value: "humble"
