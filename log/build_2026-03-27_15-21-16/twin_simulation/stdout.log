@@ -1,0 +1,32 @@
+running egg_info
+creating ../build/twin_simulation/twin_simulation.egg-info
+writing ../build/twin_simulation/twin_simulation.egg-info/PKG-INFO
+writing dependency_links to ../build/twin_simulation/twin_simulation.egg-info/dependency_links.txt
+writing requirements to ../build/twin_simulation/twin_simulation.egg-info/requires.txt
+writing top-level names to ../build/twin_simulation/twin_simulation.egg-info/top_level.txt
+writing manifest file '../build/twin_simulation/twin_simulation.egg-info/SOURCES.txt'
+reading manifest file '../build/twin_simulation/twin_simulation.egg-info/SOURCES.txt'
+writing manifest file '../build/twin_simulation/twin_simulation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build
+creating /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build/lib
+creating /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build/lib/twin_simulation
+copying twin_simulation/__init__.py -> /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build/lib/twin_simulation
+running install
+running install_lib
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/lib/python3.12/site-packages/twin_simulation
+copying /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build/lib/twin_simulation/__init__.py -> /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/lib/python3.12/site-packages/twin_simulation
+byte-compiling /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/lib/python3.12/site-packages/twin_simulation/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/ament_index
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/ament_index/resource_index
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/ament_index/resource_index/packages
+copying resource/twin_simulation -> /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/ament_index/resource_index/packages
+copying package.xml -> /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/twin_simulation
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/twin_simulation/launch
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/twin_simulation/config
+running install_egg_info
+Copying ../build/twin_simulation/twin_simulation.egg-info to /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/lib/python3.12/site-packages/twin_simulation-0.1.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/sally/Desktop/thesis/digi_twins/build/twin_simulation/install.log'

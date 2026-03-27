@@ -1,0 +1,34 @@
+[1.541s] Invoking command in '/home/sally/Desktop/thesis/digi_twins/twin_simulation': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/sally/Desktop/thesis/digi_twins/build/twin_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sally/Desktop/thesis/digi_twins/install/twin_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/twin_simulation build --build-base /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build install --record /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/install.log --single-version-externally-managed install_data
+[1.838s] running egg_info
+[1.838s] creating ../build/twin_simulation/twin_simulation.egg-info
+[1.861s] writing ../build/twin_simulation/twin_simulation.egg-info/PKG-INFO
+[1.861s] writing dependency_links to ../build/twin_simulation/twin_simulation.egg-info/dependency_links.txt
+[1.862s] writing requirements to ../build/twin_simulation/twin_simulation.egg-info/requires.txt
+[1.862s] writing top-level names to ../build/twin_simulation/twin_simulation.egg-info/top_level.txt
+[1.862s] writing manifest file '../build/twin_simulation/twin_simulation.egg-info/SOURCES.txt'
+[1.910s] reading manifest file '../build/twin_simulation/twin_simulation.egg-info/SOURCES.txt'
+[1.911s] writing manifest file '../build/twin_simulation/twin_simulation.egg-info/SOURCES.txt'
+[1.911s] running build
+[1.912s] running build_py
+[1.912s] creating /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build
+[1.912s] creating /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build/lib
+[1.912s] creating /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build/lib/twin_simulation
+[1.912s] copying twin_simulation/__init__.py -> /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build/lib/twin_simulation
+[1.912s] running install
+[1.918s] running install_lib
+[1.943s] creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/lib/python3.12/site-packages/twin_simulation
+[1.944s] copying /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build/lib/twin_simulation/__init__.py -> /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/lib/python3.12/site-packages/twin_simulation
+[1.944s] byte-compiling /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/lib/python3.12/site-packages/twin_simulation/__init__.py to __init__.cpython-312.pyc
+[1.944s] running install_data
+[1.945s] creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/ament_index
+[1.945s] creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/ament_index/resource_index
+[1.945s] creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/ament_index/resource_index/packages
+[1.945s] copying resource/twin_simulation -> /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/ament_index/resource_index/packages
+[1.945s] copying package.xml -> /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/twin_simulation
+[1.946s] creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/twin_simulation/launch
+[1.946s] creating /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/share/twin_simulation/config
+[1.946s] running install_egg_info
+[1.971s] Copying ../build/twin_simulation/twin_simulation.egg-info to /home/sally/Desktop/thesis/digi_twins/install/twin_simulation/lib/python3.12/site-packages/twin_simulation-0.1.0-py3.12.egg-info
+[1.971s] running install_scripts
+[2.123s] writing list of installed files to '/home/sally/Desktop/thesis/digi_twins/build/twin_simulation/install.log'
+[2.154s] Invoked command in '/home/sally/Desktop/thesis/digi_twins/twin_simulation' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/sally/Desktop/thesis/digi_twins/build/twin_simulation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sally/Desktop/thesis/digi_twins/install/twin_simulation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/twin_simulation build --build-base /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/build install --record /home/sally/Desktop/thesis/digi_twins/build/twin_simulation/install.log --single-version-externally-managed install_data

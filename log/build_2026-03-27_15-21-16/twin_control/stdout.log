@@ -1,0 +1,32 @@
+running egg_info
+creating ../build/twin_control/twin_control.egg-info
+writing ../build/twin_control/twin_control.egg-info/PKG-INFO
+writing dependency_links to ../build/twin_control/twin_control.egg-info/dependency_links.txt
+writing requirements to ../build/twin_control/twin_control.egg-info/requires.txt
+writing top-level names to ../build/twin_control/twin_control.egg-info/top_level.txt
+writing manifest file '../build/twin_control/twin_control.egg-info/SOURCES.txt'
+reading manifest file '../build/twin_control/twin_control.egg-info/SOURCES.txt'
+writing manifest file '../build/twin_control/twin_control.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/sally/Desktop/thesis/digi_twins/build/twin_control/build
+creating /home/sally/Desktop/thesis/digi_twins/build/twin_control/build/lib
+creating /home/sally/Desktop/thesis/digi_twins/build/twin_control/build/lib/twin_control
+copying twin_control/__init__.py -> /home/sally/Desktop/thesis/digi_twins/build/twin_control/build/lib/twin_control
+running install
+running install_lib
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_control/lib/python3.12/site-packages/twin_control
+copying /home/sally/Desktop/thesis/digi_twins/build/twin_control/build/lib/twin_control/__init__.py -> /home/sally/Desktop/thesis/digi_twins/install/twin_control/lib/python3.12/site-packages/twin_control
+byte-compiling /home/sally/Desktop/thesis/digi_twins/install/twin_control/lib/python3.12/site-packages/twin_control/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_control/share/ament_index
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_control/share/ament_index/resource_index
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_control/share/ament_index/resource_index/packages
+copying resource/twin_control -> /home/sally/Desktop/thesis/digi_twins/install/twin_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/sally/Desktop/thesis/digi_twins/install/twin_control/share/twin_control
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_control/share/twin_control/launch
+creating /home/sally/Desktop/thesis/digi_twins/install/twin_control/share/twin_control/config
+running install_egg_info
+Copying ../build/twin_control/twin_control.egg-info to /home/sally/Desktop/thesis/digi_twins/install/twin_control/lib/python3.12/site-packages/twin_control-0.1.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/sally/Desktop/thesis/digi_twins/build/twin_control/install.log'
