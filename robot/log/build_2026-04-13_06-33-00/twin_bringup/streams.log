@@ -1,0 +1,35 @@
+[0.885s] Invoking command in '/home/sally/Desktop/thesis/digi_twins/robot/src/twin_bringup': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twin_bringup build --build-base /home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/build install --record /home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/install.log --single-version-externally-managed install_data
+[1.139s] running egg_info
+[1.147s] creating ../../build/twin_bringup/twin_bringup.egg-info
+[1.159s] writing ../../build/twin_bringup/twin_bringup.egg-info/PKG-INFO
+[1.159s] writing dependency_links to ../../build/twin_bringup/twin_bringup.egg-info/dependency_links.txt
+[1.159s] writing requirements to ../../build/twin_bringup/twin_bringup.egg-info/requires.txt
+[1.159s] writing top-level names to ../../build/twin_bringup/twin_bringup.egg-info/top_level.txt
+[1.159s] writing manifest file '../../build/twin_bringup/twin_bringup.egg-info/SOURCES.txt'
+[1.200s] reading manifest file '../../build/twin_bringup/twin_bringup.egg-info/SOURCES.txt'
+[1.200s] writing manifest file '../../build/twin_bringup/twin_bringup.egg-info/SOURCES.txt'
+[1.200s] running build
+[1.201s] running build_py
+[1.201s] creating /home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/build
+[1.201s] creating /home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/build/lib
+[1.202s] creating /home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/build/lib/twin_bringup
+[1.202s] copying twin_bringup/__init__.py -> /home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/build/lib/twin_bringup
+[1.202s] running install
+[1.208s] running install_lib
+[1.228s] creating /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/lib/python3.12/site-packages/twin_bringup
+[1.228s] copying /home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/build/lib/twin_bringup/__init__.py -> /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/lib/python3.12/site-packages/twin_bringup
+[1.229s] byte-compiling /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/lib/python3.12/site-packages/twin_bringup/__init__.py to __init__.cpython-312.pyc
+[1.229s] running install_data
+[1.229s] creating /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/share/ament_index
+[1.229s] creating /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/share/ament_index/resource_index
+[1.229s] creating /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/share/ament_index/resource_index/packages
+[1.229s] copying resource/twin_bringup -> /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/share/ament_index/resource_index/packages
+[1.229s] copying package.xml -> /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/share/twin_bringup
+[1.230s] creating /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/share/twin_bringup/launch
+[1.230s] copying launch/robot.launch.py -> /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/share/twin_bringup/launch
+[1.230s] creating /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/share/twin_bringup/config
+[1.230s] running install_egg_info
+[1.251s] Copying ../../build/twin_bringup/twin_bringup.egg-info to /home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/lib/python3.12/site-packages/twin_bringup-0.1.0-py3.12.egg-info
+[1.251s] running install_scripts
+[1.378s] writing list of installed files to '/home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/install.log'
+[1.398s] Invoked command in '/home/sally/Desktop/thesis/digi_twins/robot/src/twin_bringup' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sally/Desktop/thesis/digi_twins/robot/install/twin_bringup/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/twin_bringup build --build-base /home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/build install --record /home/sally/Desktop/thesis/digi_twins/robot/build/twin_bringup/install.log --single-version-externally-managed install_data
